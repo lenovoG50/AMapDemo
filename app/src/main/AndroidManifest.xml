@@ -37,7 +37,8 @@
         </activity>
         <meta-data
             android:name="com.amap.api.v2.apikey"
-            android:value="e1e03e305f216fbc8d9df8e35ab21e4b"/>
+            android:value="e1e03e305f216fbc8d9df8e35ab21e4b" />
+        <service android:name="com.amap.api.location.APSService"></service>
     </application>
 
 </manifest>
